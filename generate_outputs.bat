@@ -2,7 +2,7 @@
 setlocal
 
 rem ---- CONFIG ----
-set "PROJECT=.\CAD<proj_name><proj_name>"
+set "PROJECT=.\CAD\<proj_name><proj_name>"
 set "VENDOR=jlcpcb"
 set "KICAD_BIN=C:\Program Files\KiCad\9.0\bin"
 rem ----------------
@@ -25,3 +25,4 @@ if errorlevel 1 (
 echo Done.
 
 endlocal
+
