@@ -11,7 +11,7 @@ set -euo pipefail
 KICAD_BIN="/usr/bin"
 
 # Project *stem* (without extension), relative to repo root (this script's dir)
-PROJECT_DEFAULT="CAD/esp-motioncontroller/esp-motioncontroller"
+PROJECT_DEFAULT="CAD/<proj_name>/<proj_name>"
 
 # Vendor for KiKit fab (e.g., jlcpcb, pcbway). Leave empty to skip KiKit.
 VENDOR_DEFAULT="jlcpcb"
